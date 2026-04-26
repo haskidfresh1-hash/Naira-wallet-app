@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  background: #0b1220;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 320px;
+  margin-top: 20px;
+}
+
+.top-bar {
+  text-align: left;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+.actions button {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 10px;
+  background: #1f2937;
+  color: white;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+.history {
+  margin-top: 20px;
+  background: #111827;
+  padding: 10px;
+  border-radius: 10px;
+}
